@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom styles */
+
+.container{
+    max-width: 1450px;
+    margin: auto;
+    padding: 0 100px;
+    padding: 50px 100px;
+}
+.header{
+    background-color: rgb(48, 48, 102);
+}
+
+/* clearfix */
+
+.clearfix::before,.clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+
+/* header */
+
+.heading{
+    float: left;
+    color: white;
+}
+.main-nav{
+    float: right;
+    word-spacing: 15px;
+}
+.main-nav a{
+    color: white;
+    text-decoration: none;
+}
+.main-heading {
+    text-align: center;
+    margin-top: 150px;
+    padding-bottom: 80px;
+    color: white;
+}
+.main-heading h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+/* article */
+
+.col{
+    width: 28.1%;
+    margin-right: 5%;
+    float: left;
+}
+.col h3{
+    font-size: 24px;
+}
+.col p{
+    margin: 25px 0;
+}
+.col a{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+/* Profile */
+
+.profile{
+    background-color: rgb(101, 75, 126);
+    color: white;
+}
+#profile{
+    font-size: 32px;
+    text-align: center;
+    margin: 30px 0;
+}
+#profile p{
+    font-size: 18px;
+}
+.images h3{
+    font-size: 24px;
+}
+.images div{
+    width: 20%;
+    margin-right: 4.2%;
+    float: left;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 30px 0;
+}
+.images img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* last */
+
+.last{
+    padding: 100px 0;
+}
+.last header{
+    text-align: center;
+}
+.last h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#last div{
+    width: 40%;
+    float: left;
+    margin: 30px 5%;
+    
+}
+#last img{
+    width: 100%;
+    height: 200px;
+}
+#last h3{
+    font-size: 24px;
+    margin: 24px 0;
+}
+#last a{
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+hr{
+    border: 1px solid black;
+    margin-top: -100px;
+    width: 1450px;
+    margin: auto;
+}
+footer{
+    padding: 50px 0;
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
+#left{
+    word-spacing: 20px;
+    text-decoration: none;
+}
+#right{
+    word-spacing: 20px;
+    text-decoration: none;
+}
+
